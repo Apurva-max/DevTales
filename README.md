@@ -67,14 +67,20 @@ DevTales
 │   ├── package.json
 │   └── vite.config.ts
 │
-├── Backend
+Backend
+├── src
+│   ├── config
 │   ├── controllers
 │   ├── middleware
+│   ├── models
 │   ├── routes
-│   ├── database
+│   ├── services
 │   ├── utils
-│   ├── package.json
-│   └── server.js
+│   ├── app.ts
+│   └── server.ts
+├── package.json
+├── package-lock.json
+└── tsconfig.json
 │
 └── README.md
 ```
