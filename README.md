@@ -158,6 +158,9 @@ CLOUDINARY_API_SECRET=
 
 > Screenshots will be added after deployment.
 
+<img width="1919" height="947" alt="image" src="https://github.com/user-attachments/assets/a5010617-f999-4b48-89d5-6e7395858a41" />
+
+
 ---
 
 # 🚀 Future Improvements
