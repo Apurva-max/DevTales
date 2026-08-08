@@ -10,7 +10,7 @@ A modern full-stack blogging platform built with **React, TypeScript, Express.js
 🔗 https://dev-tales-gules.vercel.app
 
 ### Backend API
-🔗 https://your-backend-url.up.railway.app
+🔗 https://devtales-production.up.railway.app
 
 ---
 
