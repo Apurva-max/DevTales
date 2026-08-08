@@ -7,7 +7,7 @@ A modern full-stack blogging platform built with **React, TypeScript, Express.js
 ## 🌐 Live Demo
 
 ### Frontend
-🔗 https://your-frontend-url.vercel.app
+🔗 https://dev-tales-gules.vercel.app
 
 ### Backend API
 🔗 https://your-backend-url.up.railway.app
@@ -59,29 +59,50 @@ A modern full-stack blogging platform built with **React, TypeScript, Express.js
 # 📂 Project Structure
 
 ```
-DevTales
+DevTales/
 │
-├── Frontend
-│   ├── src
-│   ├── public
+├── Backend/
 │   ├── package.json
-│   └── vite.config.ts
+│   ├── tsconfig.json
+│   └── src/
+│       ├── config/
+│       ├── controllers/
+│       ├── middleware/
+│       ├── models/
+│       ├── routes/
+│       ├── services/
+│       ├── utils/
+│       ├── app.ts
+│       └── server.ts
 │
-Backend
-├── src
-│   ├── config
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   ├── routes
-│   ├── services
-│   ├── utils
-│   ├── app.ts
-│   └── server.ts
-├── package.json
-├── package-lock.json
-└── tsconfig.json
+├── Frontend/
+│   └── client/
+│       ├── src/
+│       │   ├── api/
+│       │   ├── assets/
+│       │   ├── components/
+│       │   ├── constants/
+│       │   ├── Pages/
+│       │   ├── Router/
+│       │   ├── Services/
+│       │   ├── Store/
+│       │   ├── App.css
+│       │   ├── App.tsx
+│       │   ├── index.css
+│       │   └── main.tsx
+│       │
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── postcss.config.js
+│       ├── README.md
+│       ├── tailwind.config.js
+│       ├── tsconfig.app.json
+│       ├── tsconfig.json
+│       ├── tsconfig.node.json
+│       └── vite.config.ts
 │
+├── .gitignore
 └── README.md
 ```
 
